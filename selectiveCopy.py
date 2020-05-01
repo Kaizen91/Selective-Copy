@@ -29,7 +29,7 @@ def selectiveCopy(source, destination, extention):
                     continue
                     
                 #move files that match the extention
-                shutil.copy(os.path.join(source,filename),destination)
+                shutil.copy(os.path.join('.',foldername,filename),destination)
     else:
         print('The source and/or the destination provided does not exist.')
 

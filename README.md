@@ -9,3 +9,6 @@ Instructions:
 3.run "chmod +x selectiveCopy.py"
 4.run "./selectiveCopy.py"
 5.note that files have moved from the Source Folder to the destination Folder
+
+Requirements:
+Python 3
